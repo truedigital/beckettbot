@@ -4,8 +4,10 @@
 
 var BeckettBot = require('../lib/beckettbot');
 
+var token = process.env.BOT_API_KEY;
+
 var beckettbot = new BeckettBot({
-    token: "xoxb-112042237185-lYvzWCqq7lArHK5kFla3JhDz",
+    token: token,
     name: "beckettbot"
 });
 
