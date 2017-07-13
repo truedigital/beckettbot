@@ -28,7 +28,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=0.10.0"
+    "node": "4.8.4"
   },
   "dependencies": {
     "async": "^1.4.1",
